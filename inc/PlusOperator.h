@@ -1,3 +1,4 @@
+#pragma once
 #include "OperatorNode.h"
 
 class PlusOperator : public OperatorNode {

@@ -1,5 +1,6 @@
 #pragma once
 #include "Node.h"
+
 class NumericNode : public Node {
 public:
 	NumericNode(int value) : value(value) {}
