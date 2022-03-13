@@ -1,4 +1,5 @@
 #include "../inc/TreeBuilder.h"
+#include "../inc/NumericNode.h"
 
 Node* TreeBuilder::buildTree(vector<string>& postfix) {
     stack<Node*> expStack;
