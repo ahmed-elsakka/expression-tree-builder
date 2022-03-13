@@ -2,6 +2,6 @@
 
 class MinusOperator : public OperatorNode {
 public:
-	MinusOperator(): OperatorNode(left, right){}
+	MinusOperator(Node* left, Node* right): OperatorNode(left, right){}
 	int evaluate() const;
 };
